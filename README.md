@@ -7,3 +7,8 @@
 メインページに「プロジェクト名」フォルダー（EX:sample2）/「backup」/「日付」/に学習履歴のバックアップ
 
 授業・自習・課題・自由練習の作成規則はまだ未定。
+
+sample2：REACT
+
+sample_lifecycle：VITE + REACT
+
