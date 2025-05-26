@@ -1,0 +1,76 @@
+C:\Users\LEGION>cd F:\works\react-typescript
+
+C:\Users\LEGION>f:
+
+F:\works\react-typescript>dir
+ ドライブ F のボリューム ラベルがありません。
+ ボリューム シリアル番号は F051-31A7 です
+
+ F:\works\react-typescript のディレクトリ
+
+2025/05/26  09:47    <DIR>          .
+2025/05/22  15:40    <DIR>          ..
+2025/05/26  09:47                95 package-lock.json
+2025/05/26  09:17    <DIR>          sample2
+2025/05/26  09:56    <DIR>          sample4
+2025/05/23  10:56    <DIR>          sample_abcd
+               1 個のファイル                  95 バイト
+               5 個のディレクトリ  961,731,469,312 バイトの空き領域
+
+F:\works\react-typescript>npm create vite@latest
+
+> npx
+> create-vite
+
+|
+*  Project name:
+|  sample_lifecycle
+
+*  Select a framework:
+|    Vanilla
+|    Vue
+|  > React
+|    Preact
+|    Lit
+|    Svelte
+|    Solid
+|    Qwik
+|    Angular
+|    Marko
+|    Others
+—
+
+*  Select a variant:
+|    TypeScript
+|    TypeScript + SWC
+|  > JavaScript
+|    JavaScript + SWC
+|    React Router v7 ↗
+|    TanStack Router ↗
+|    RedwoodSDK ↗
+—Done. Now run:
+
+  cd sample_lifecycle
+  npm install
+  npm run dev
+
+
+F:\works\react-typescript>
+
+F:\works\react-typescript>cd F:\works\react-typescript\sample_lifecycle
+
+F:\works\react-typescript\sample_lifecycle>npm install
+
+added 153 packages, and audited 154 packages in 29s
+
+33 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+F:\works\react-typescript\sample_lifecycle>npm run dev
+
+
+
+作業開始
+http://localhost:5173/
