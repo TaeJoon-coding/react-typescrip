@@ -1,0 +1,33 @@
+#open_btn {
+    background-color: cadetblue;
+    border: 1px solid wheat;
+    color: brown;
+    text-shadow: 1px 1px 1px black;
+}
+
+#close_btn {
+    background-color: chocolate;
+    border: 1px solid mediumvioletred;
+    color: blue;
+    text-shadow: 1px 1px 1px white;
+}
+
+.move1 {
+    margin: 10px;
+    position: absolute;
+    left: 30vw;
+    top: 20vh;
+}
+
+.move2 {
+    padding: auto;
+    margin: 10px;
+    position: absolute;
+    left: 55vw;
+    top: 20vh;
+}
+
+.text_type_A {
+    font-size: 20px;
+    font-weight: 200;
+}
