@@ -1,9 +1,0 @@
-@charset "UTF-8";
-
-div#custom_div {
-    font-size:2em;
-    color:red;
-    background-color:cyan;
-    width:400px;
-    height:300px;
-}
