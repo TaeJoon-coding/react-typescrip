@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+
+/* 記入欄 */
+.input-fld-pnl {
+    display: flex;
+
+    align-items: flex-start;
+
+    width: 500px;
+    padding: 10px 0;    
+
+    font-size: 1em;
+}
+
+/* ラベル（マスター） */
+label {
+    display: flex;
+    align-items: center;
+    /* 縦中央揃え */
+
+    width: 100px;
+    /* 横幅：100px */
+    padding: 0 10px;
+    /* 内部間隔：上下0、左右10px */
+}
+
+/* フィールドアイコン */
+label .icon-fld {
+    color: #333333;
+    font-size: 1.4em; 
+    /* アイコンの色：#333333、フォントサイズ：1.4em */
+}
+
+/* テキストラベル */
+.txt-label {
+    padding: 10px 0 10px 10px;
+    /* 内部間隔：上下左10px、右0 */
+}
+
+ 
+.input-fld {
+   border: 2px solid #CCCCCC;
+   /* ボーダーライン：2px、実線、#CCCCCC色 */
+   border-radius: 10px;
+   /* 角の丸み：10px */
+   width: 300px;
+   height: 35px;
+   /* 横幅：300px、高さ35px */
+   margin-left: 20px;
+   /* 左間隔：20px */
+   padding: 0 10px;
+   /* 内部間隔：上下0、左右10px */
+}
+
+/* 今選択された記入欄 */
+.input-fld:focus, #content:focus {
+    outline-color: #60C5F1;
+    /* アウトラインの色：#60C5F1 */
+}    
+
+/* お問い合わせ内容 */
+#content {
+    resize: none;
+    /* 記入欄のサイズを固定 */
+
+    width: 300px;
+    height: 200px;
+    /* 横幅：300px、高さ200px */
+
+    border: 2px solid #CCCCCC;
+    /* ボーダーライン：2px、実線、#CCCCCC色 */
+    border-radius: 10px;
+    /*角の丸み：10px*/
+
+    margin-left: 20px;
+    padding: 10px;
+    /* 外部間隔：20px、内部間隔10px */
+}
