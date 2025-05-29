@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(../../img/KlbSCJh-pokemon-wallpapers.jpg);
+    background-size: 100vmax;
+    background-repeat: no-repeat;
+}
+
+.wrap {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* 横軸整列 */
+    /* background-color: blue; */
+}
+
+.member_wrap {
+    color: wheat;
+    /* margin-left: 125px;
+    margin-top: 100px; */
+    /* background-color: aqua; */
+}
+
+/* 記入欄 */
+.input-fld-pnl {
+    display: flex;
+    align-items: flex-start;
+
+    width: 600px;
+    padding: 10px 0;
+
+    font-size: 1em;
+}
+
+/* 提出、キャンセルボタンパネル */
+.btn-fld-pnl {
+    width: 100%;
+    /* background-color: azure; */
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.btn_type_1 {
+    margin-left: 15px;
+    /* background-color:turquoise; */
+}
+
+.btn_style_1 {
+    /* background-color: wheat !important; 
+    border-color: gray !important; 
+    color: darkslategray !important;  */
+    background-color: wheat; 
+    /* !important で Bootstrap のスタイルを上書き */
+    border-color: gray; 
+    /* ボーダーの色も合わせる */
+    color: darkslategray; 
+    /* テキストの色 */
+}
+
+.btn_style_1:hover {
+
+    background-color:cadetblue; 
+    border-color: brown; 
+    color: coral; 
+}
+
+
+.btn_style_2 {
+    background-color: wheat; 
+    border-color: gray; 
+    color: darkslategray; 
+}
+
+.btn_style_2:hover {
+
+    background-color:cadetblue; 
+    border-color: brown; 
+    color: coral; 
+}
+
+/* ラベル（マスター） */
+label {
+    display: flex;
+    align-items: center;
+    /* 縦中央揃え */
+
+    width: 100px;
+    /* 横幅：100px */
+    padding: 0 10px;
+    /* 内部間隔：上下0、左右10px */
+}
+
+/* 記入欄 */
+.menu_box {
+    resize: none;
+    width: 600px;
+    border: 2px solid #CCCCCC;
+    border-radius: 10px;
+    padding: 10px;
+    
+    background-image: url(../../img/good_night.jpg);
+    background-repeat: repeat;
+    background-size: 125px;
+
+    color:chartreuse!important;
+    text-shadow: 1.5px 1.5px 1.5px black;
+}
+
+/* 本文 */
+#menu_description {
+    resize: none;
+    width: 600px;
+    height: 200px;
+    border: 2px solid #CCCCCC;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    vertical-align: top;
+
+    background-image: url(../../img/good_night.jpg);
+    background-repeat: repeat;
+    background-size: 125px;
+
+    color:cyan!important;
+    text-shadow: 1.5px 1.5px 1.5px black;
+}
+
+.menu_box:focus {
+    border-color: wheat; 
+    /* フォーカス時、テキストボックスのボーダーラインの色を変更する。 */
+    box-shadow: 0 0 0 0.25rem crimson; 
+    /* フォーカス時、ハイライトの設定 */
+    color:brown!important;
+    /* 入力されたテキストの色 */
+
+    background-image: url(../../img/wp10025284.png);
+    background-repeat: repeat;
+    background-size: 125px;
+}
+
+/* フォーカス時のスタイル設定 */
+#menu_description:focus {
+    border-color: wheat; 
+    /* フォーカス時、テキストボックスのボーダーラインの色を変更する。 */
+    box-shadow: 0 0 0 0.25rem coral; 
+    /* フォーカス時、ハイライトの設定 */
+    color:blueviolet!important;
+    /* 入力されたテキストの色 */
+
+    background-image: url(../../img/wp10025284.png);
+    background-repeat: repeat;
+    background-size: 125px;
+
+}
+
+
+
+
+/* 追加、使用環境によって必要になる。 */
+/* ---------------------------------------------------- */
+/* 非活性時のplaceholderの色 */
+/* ---------------------------------------------------- */
+.menu_box::placeholder {
+    color:aliceblue; 
+    opacity: 1;
+}
+
+#menu_description::placeholder {
+    color:aliceblue; 
+    opacity: 1;
+}
+
+/* ベンダープレフィックス（非活性時） */
+.menu_box::-webkit-input-placeholder {
+    color:aliceblue;
+    opacity: 1;
+}
+.menu_box::-moz-placeholder {
+    color:aliceblue;
+    opacity: 1;
+}
+.menu_box:-ms-input-placeholder {
+    color:aliceblue;
+    opacity: 1;
+}
+.menu_box:-moz-placeholder {
+    color:aliceblue;
+    opacity: 1;
+}
+
+#menu_description::-webkit-input-placeholder {
+    color:aliceblue;
+    opacity: 1;
+}
+#menu_description::-moz-placeholder {
+    color:aliceblue;
+    opacity: 1;
+}
+#menu_description:-ms-input-placeholder {
+    color:aliceblue;
+    opacity: 1;
+}
+#menu_description:-moz-placeholder {
+    color:aliceblue;
+    opacity: 1;
+}
+
+
+/* ---------------------------------------------------- */
+/* 活性時（:focus）のplaceholderの色 */
+/* ---------------------------------------------------- */
+.menu_box:focus::placeholder {
+    color: crimson; 
+    opacity: 1;
+}
+
+#menu_description:focus::placeholder {
+    color: coral; 
+    opacity: 1;
+}
+
+/* ベンダープレフィックス（活性時） */
+.menu_box:focus::-webkit-input-placeholder {
+    color: crimson;
+    opacity: 1;
+}
+.menu_box:focus::-moz-placeholder {
+    color: crimson;
+    opacity: 1;
+}
+.menu_box:focus:-ms-input-placeholder {
+    color: crimson;
+    opacity: 1;
+}
+.menu_box:focus:-moz-placeholder {
+    color: crimson;
+    opacity: 1;
+}
+
+#menu_description:focus::-webkit-input-placeholder {
+    color: coral;
+    opacity: 1;
+}
+#menu_description:focus::-moz-placeholder {
+    color: coral;
+    opacity: 1;
+}
+#menu_description:focus:-ms-input-placeholder {
+    color: coral;
+    opacity: 1;
+}
+#menu_description:focus:-moz-placeholder {
+    color: coral;
+    opacity: 1;
+}
