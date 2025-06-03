@@ -52,8 +52,9 @@ router.get('/:name/:email/:phone/:description', cors(corsOptions), async functio
       }).catch((err) => {
         console.error("err : ", err);
       })
-    // Promise 함수의 경우 리턴시에 매우 주의 !  
-    // return msg; ==> Promise 객체 자체를 리턴하므로 원하는 텍스트로 리턴하지 않음
+
+    // Promise関数の場合、リターン時に要注意！
+    // return msg; ==> Promiseオブジェクト自体をリターンするので、望むテキストでリターンしない。
     // Promise : https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Promise
     // resolve() : https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Promise/resolve
     
